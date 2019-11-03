@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class BinaryHeap {
-    private final int DEFAULTSIZE = 10;
+    private final int DEFAULT_SIZE = 10;
     private int size;
     private int[] heap;
 
@@ -10,7 +10,7 @@ public class BinaryHeap {
      */
     public BinaryHeap(){
         size = 0;
-        heap = new int[DEFAULTSIZE];
+        heap = new int[DEFAULT_SIZE];
     }
 
     /**
